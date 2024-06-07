@@ -1,4 +1,4 @@
-# Expense tracker (SQL(Sequelize) & NoSQL(MongoDB))
+# Expense Tracker 
  
 ## How to use
 
