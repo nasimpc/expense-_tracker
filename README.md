@@ -31,30 +31,33 @@ DATABASE_HOST='localhost'
   
   ## List of available Routes
   
-  **chat route**:
+  ** Expense route **:
   
-  * `POST chat/add-chat`- for sending chat
-  * `POST chat/chat-Image`- for sending images as chat
-  * `GET chat/get-chats`- getting chats of all groups
-  * `GET chat/get-messages`- getting chats of a specific group (for optimization of the chat application)
+  * `POST expense/add-expense`- for adding a new expense
+  * `GET expense/get-expenses`- for getting expenses to show in the expense table
+  * `DELETE expense/delete-expense/:id`- deleting a particular expense from the expense table
   
-  **group route**:
+  ** premium route **:
   
-  * `POST group/create-group`- creating a new group by  a prime user
-  * `GET group/groups` - get all groups that the current user have access to
-  * `GET group/group` - get group with given groupId
-  * `GET get-group-members` - to get other group user details
+  * `POST premium/leaderboard-data`- for getting top users names sorted by descending order of their expense 
+  * `GET premium/download` - downloading the details about the expenses of the user
   
-  **purchase route**:
+  ** purchase route **:
   
-  * `POST puchase/buy-premium`- changing from nrmal user to premium user
+  * `POST purchase/premium-membership`- changing from normal user to premium user
   
-  **user route**:
+  ** user route **:
   
   * `POST user/add-user`- signup
   * `POST user/login`-login
   * `GET user/get-users`- get details about all other users
-  * `GET user/get-user`- to get details of current user from saved JWT token in local storage
+  * `GET user/get-user`- to get details of the current user from saved JWT token in local storage
+
+  ** password route **:
+  
+  * `POST password/forget-password`- get change password email
+  * `GET password/reset/:id`- get from for changing password
+  * `POST password/reset`- change the password
   
   
   
