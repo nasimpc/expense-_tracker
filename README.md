@@ -25,7 +25,7 @@ DATABASE_HOST='localhost'
 ```
 * step 4: npm start
 * step 5: url to start the web application eg: http://localhost:3000(port number)/
-* Thank you for using Chat-app. for any futher enquery and support, email: nasimpcm@gmail.com
+* Thank you for using Expense-tracker. for any futher enquery and support, email: nasimpcm@gmail.com
 
   # Api documentation
   
