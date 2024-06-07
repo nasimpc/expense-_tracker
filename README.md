@@ -31,29 +31,29 @@ DATABASE_HOST='localhost'
   
   ## List of available Routes
   
-  ** Expense route **:
+  **Expense route**:
   
   * `POST expense/add-expense`- for adding a new expense
   * `GET expense/get-expenses`- for getting expenses to show in the expense table
   * `DELETE expense/delete-expense/:id`- deleting a particular expense from the expense table
   
-  ** premium route **:
+  **premium route**:
   
   * `POST premium/leaderboard-data`- for getting top users names sorted by descending order of their expense 
   * `GET premium/download` - downloading the details about the expenses of the user
   
-  ** purchase route **:
+  **purchase route**:
   
   * `POST purchase/premium-membership`- changing from normal user to premium user
   
-  ** user route **:
+  **user route**:
   
   * `POST user/add-user`- signup
   * `POST user/login`-login
   * `GET user/get-users`- get details about all other users
   * `GET user/get-user`- to get details of the current user from saved JWT token in local storage
 
-  ** password route **:
+  **password route**:
   
   * `POST password/forget-password`- get change password email
   * `GET password/reset/:id`- get from for changing password
