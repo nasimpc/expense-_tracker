@@ -3,7 +3,7 @@
 ## How to use
 
 * step 1: npm install
-* step 2: .env file creating (example model):
+* step 2: .env file creation (example model):
 ```sh
 PORT='3000'
 JWT_SECRET_KEY='secretkey'
